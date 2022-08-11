@@ -42,13 +42,18 @@ object {
     margin-left: 20px;
 }
 
-a {
+nav a {
     display: block;
-    width: calc(100% - 20px);
+    width: 100%;
     padding: 12px 0 12px 20px;
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+a:hover {
+    color:rgb(23, 7, 167);
+    background: white;
 }
 
 a:last-child {
