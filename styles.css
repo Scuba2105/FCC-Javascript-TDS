@@ -1,0 +1,71 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: sticky;
+    top: 0px;
+    width: 20%;
+    height: 100vh;
+    padding-right: 20px;
+    background: rgb(23, 7, 167)
+}
+
+nav > header {
+    height: 80px;
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #fcf9f9;
+    font-size: 32px; 
+    padding: 5px 20px;
+    color: white;
+}
+
+object {
+    margin-right: 10px;
+}
+
+#doc {
+    margin-left: 20px;
+}
+
+a {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 12px 0 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:last-child {
+    border: none;
+}
+
+a:first-child {
+    margin-top: 50px !important;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        min-width: 200px;
+    }
+}
+
+.main-section > header {
+    padding-left: 100px;
+    
+}
